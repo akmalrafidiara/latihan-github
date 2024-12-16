@@ -1,0 +1,42 @@
+/* adam.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Warna latar belakang halaman */
+    background-size: cover; /* Pastikan background meliputi seluruh layar */
+    background-repeat: no-repeat; /* Tidak ada pengulangan */
+    background-attachment: fixed; /* Latar belakang tetap */
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Membuat tinggi banner sesuai layar penuh */
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pastikan gambar memenuhi area */
+    display: block;
+  }
+  
+  .text-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Warna teks di atas banner */
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .text-banner h1 {
+    font-size: 36px; /* Ukuran font judul */
+    margin: 0;
+  }
+  
